@@ -1,3 +1,10 @@
+body {
+    background-image: url(../images/6-imagem-fundo/imagem-fundo.jpeg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+  }
+
 main {
     display: flex;
     flex-direction: column;
@@ -5,15 +12,12 @@ main {
     justify-content: center;
     height: 100vh;
     font-family: "Orbitron", sans-serif;
-    position: relative;
 }
 
 .container {
-    height: 600px;
     width: 300px;
     border: 1px solid #8B0000;
     background-color: rgba(112, 128, 144, 0.3);
-    position: absolute;
 }
 
 .profile {
@@ -41,36 +45,38 @@ main {
 .profile .cargo {
     margin-top: 10px;
     font-size: 9px;
+    color: #F8F8FF;
 }
 
-.links {
-    margin-top: 35px;
-    text-align: center;
-}
-
-.links ul {
+.links{
     display: flex;
+    margin-top: 30px;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
-.links ul li {
+figure{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    height: 45px;
     border: 1px solid #DAA520;
     border-radius: 10px;
-    width: 200px;
-    height: 40px;
     margin-top: 10px;
-
+    align-items: center;
+    padding: 10px;
 }
 
-.links ul li a {
-    margin-bottom: 10px;
+figure:hover{
+    border: 1px solid #F8F8FF;
+    background-color: #DAA520;
+    box-shadow: 0 5px 15px #8B0000;
+    transition: 0.3s ease-in-out;
 }
 
-.links img {
-    margin-left: 5px;
+.links figure img{
     border-radius: 50%;
+    height: 30px;
 }
 
 footer {
@@ -85,4 +91,8 @@ footer .fa-linkedin, .fa-github, .fa-address-card, .fa-envelope-open-text, .fa-s
 
 a{
     color: #8B0000;
+}
+
+a:hover{
+    color: #F8F8FF;
 }

@@ -1,0 +1,8 @@
+@media (max-width: 576px){
+    body {
+        background-image: url(../images/6-imagem-fundo/android-chrome-512x512.png);
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+      }
+}
