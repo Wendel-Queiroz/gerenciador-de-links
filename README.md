@@ -73,6 +73,7 @@ figure:hover{
     box-shadow: 0 5px 15px #8B0000;
     transition: 0.3s ease-in-out;
 }
+```
 
 Agradecimentos
 
