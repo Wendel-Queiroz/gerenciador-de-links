@@ -1,45 +1,32 @@
-# Frontend Mentor - Solução de componente de cartão de perfil
+# Gerenciador de links
 
-Esta é uma solução para o [desafio do componente de cartão de perfil no Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação construindo projetos realistas.
+Esta é uma criação própria para gerenciar meus links das minhas redes profissionais.
 
 ## Índice
 
-- [Visão geral](#visão geral)
-- [O desafio](#o-desafio)
-- [Captura de tela](#captura de tela)
-- [Links](#links)
-- [Meu processo](#meu-processo)
-- [Construído com](#construído-com)
-- [O que aprendi](#o-que-aprendi)
-- [Desenvolvimento contínuo](#desenvolvimento-continuo)
-- [Recursos úteis](#recursos-úteis)
-- [Autor](#autor)
-- [Agradecimentos](#agradecimentos)
-
-**Observação: exclua esta observação e atualize o índice com base nas seções que você mantém.**
+- [Visão geral]
+- [O desafio]
+- [Captura de tela]
+- [Links]
+- [Meu processo]
+- [Construído com]
+- [Códigos em Destaque]
+- [Agradecimentos]
 
 ## Visão geral
 
 ### O desafio
 
-- Crie o projeto de acordo com os designs fornecidos
+- Criar o projeto de acordo com outros modelos que me inspiraram.
 
 ### Captura de tela
 
-![](./screenshot.jpg)
-
-Adicione uma captura de tela da sua solução. A maneira mais fácil de fazer isso é usar o Firefox para visualizar seu projeto, clicar com o botão direito na página e selecionar "Tirar uma captura de tela". Você pode escolher uma captura de tela de altura total ou uma cortada com base no tamanho da página. Se for muito longa, pode ser melhor cortá-la.
-
-Como alternativa, você pode usar uma ferramenta como [FireShot](https://getfireshot.com/) para tirar a captura de tela. O FireShot tem uma opção gratuita, então você não precisa comprá-la.
-
-Em seguida, corte/otimize/edite sua imagem como quiser, adicione-a ao seu projeto e atualize o caminho do arquivo na imagem acima.
-
-**Observação: exclua esta observação e os parágrafos acima quando adicionar sua captura de tela. Se você preferir não adicionar uma captura de tela, sinta-se à vontade para remover esta seção inteira.**
+<img src=./src/desing/desktop.png>
 
 ### Links
 
-- URL da solução: [Adicione a URL da solução aqui](https://your-solution-url.com)
-- URL do site ativo: [Adicione a URL do site ativo aqui](https://your-live-site-url.com)
+- URL da solução: https://github.com/Wendel-Queiroz/gerenciador-de-links
+- URL do site ativo: https://wendel-queiroz.github.io/gerenciador-de-links/
 
 ## Meu processo
 
@@ -49,60 +36,44 @@ Em seguida, corte/otimize/edite sua imagem como quiser, adicione-a ao seu projet
 - Propriedades personalizadas CSS
 - Flexbox
 - Grade CSS
-- Fluxo de trabalho mobile-first
-- [React](https://reactjs.org/) - Biblioteca JS
-- [Next.js](https://nextjs.org/) - Estrutura React
-- [Componentes estilizados](https://styled-components.com/) - Para estilos
+- Fluxo de trabalho desktop-first
 
-**Observação: estes são apenas exemplos. Exclua esta observação e substitua a lista acima por suas próprias escolhas**
-
-### O que aprendi
-
-Use esta seção para recapitular alguns dos seus principais aprendizados ao trabalhar neste projeto. Escrever isso e fornecer amostras de código das áreas que você deseja destacar é uma ótima maneira de reforçar seu próprio conhecimento.
-
-Para ver como você pode adicionar trechos de código, veja abaixo:
+### Códigos em Destaque
 
 ```html
-<h1>Alguns códigos HTML dos quais me orgulho</h1>
+<footer>
+                <a href="https://www.linkedin.com/in/wendel-queiroz/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Wendel-Queiroz" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://wendel-queiroz.github.io/portfolio/" target="_blank"><i class="fa-solid fa-address-card"></i></a>
+                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank"><i class="fa-solid fa-envelope-open-text"></i></a>
+                <a href="https://www.instagram.com/wendelcqueiroz?igsh=OWxmbnB4MGZmYzQ0" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://wa.me/351938460128" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </footer>
 ```
 ```css
-.proud-of-this-css {
-color: papayawhip;
+figure{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    height: 45px;
+    border: 1px solid #DAA520;
+    border-radius: 10px;
+    margin-top: 10px;
+    align-items: center;
+    padding: 10px;
 }
-```
-```js
-const proudOfThisFunc = () => {
-console.log('🎉')
+
+figure a{
+    color: #8B0000;
 }
-```
 
-Se você quiser mais ajuda para escrever markdown, recomendamos verificar [The Markdown Guide](https://www.markdownguide.org/) para saber mais.
+figure:hover{
+    border: 1px solid #F8F8FF;
+    background-color: #DAA520;
+    box-shadow: 0 5px 15px #8B0000;
+    transition: 0.3s ease-in-out;
+}
 
-**Observação: exclua esta observação e o conteúdo desta seção e substitua por seus próprios aprendizados.**
+Agradecimentos
 
-### Desenvolvimento contínuo
-
-Use esta seção para delinear áreas nas quais você deseja continuar se concentrando em projetos futuros. Esses podem ser conceitos com os quais você ainda não está completamente confortável ou técnicas que você achou úteis e que deseja refinar e aperfeiçoar.
-
-**Observação: exclua esta observação e o conteúdo desta seção e substitua pelos seus próprios planos para desenvolvimento contínuo.**
-
-### Recursos úteis
-
-- [Recurso de exemplo 1](https://www.example.com) - Isso me ajudou por um motivo XYZ. Gostei muito desse padrão e vou usá-lo daqui para frente.
-- [Recurso de exemplo 2](https://www.example.com) - Este é um artigo incrível que me ajudou a finalmente entender XYZ. Eu o recomendaria a qualquer um que ainda esteja aprendendo esse conceito.
-
-**Observação: exclua esta observação e substitua a lista acima por recursos que ajudaram você durante o desafio. Eles podem ser úteis para qualquer pessoa que esteja visualizando sua solução ou para você mesmo quando olhar para este projeto no futuro.**
-
-## Autor
-
-- Site - [Adicione seu nome aqui](https://www.your-site.com)
-- Mentor de front-end - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Observação: exclua esta observação e adicione/remova/edite as linhas acima com base nos links que você gostaria de compartilhar.**
-
-## Agradecimentos
-
-É aqui que você pode dar uma dica a qualquer pessoa que o ajudou neste projeto. Talvez você tenha trabalhado em uma equipe ou tenha se inspirado na solução de outra pessoa. Este é o lugar perfeito para dar algum crédito a eles.
-
-**Observação: exclua esta observação e edite o conteúdo desta seção conforme necessário. Se você concluiu este desafio sozinho, sinta-se à vontade para excluir esta seção completamente.**
+Sempre seria grato aos irmãoes Ricardo e Roberto, os gêmeos criadores do curso Dev em Dobro!!!
