@@ -18,6 +18,7 @@ Esta é uma criação própria para gerenciar meus links das minhas redes profis
 ### O desafio
 
 - Criar o projeto de acordo com outros modelos que me inspiraram.
+- Centralização dos elementos e posicionamentos absoluto.
 
 ### Captura de tela
 
